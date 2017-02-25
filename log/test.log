@@ -1,0 +1,25 @@
+Started GET "/" for 127.0.0.1 at 2017-02-25 21:36:57 +0000
+Started GET "/" for 127.0.0.1 at 2017-02-25 21:38:05 +0000
+Processing by TodosController#index as HTML
+Completed 406 Not Acceptable in 98ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2017-02-25 21:38:15 +0000
+Processing by TodosController#index as HTML
+Completed 406 Not Acceptable in 71ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2017-02-25 21:39:06 +0000
+Processing by TodosController#index as HTML
+Completed 406 Not Acceptable in 92ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2017-02-25 21:39:28 +0000
+Processing by TodosController#index as HTML
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 685ms (Views: 667.0ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2017-02-25 21:40:01 +0000
+Processing by TodosController#index as HTML
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 426ms (Views: 407.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2017-02-25 21:41:46 +0000
+Processing by TodosController#index as HTML
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 389ms (Views: 372.6ms | ActiveRecord: 0.0ms)
