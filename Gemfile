@@ -15,15 +15,16 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'rake', '< 11.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'rspec-rails', '~> 3.0.1'
+  gem 'rspec-rails', '~> 3.5.2'
 end
 
 group :test do
-  gem 'capybara', '~> 2.3.0'
+  gem 'capybara', '~> 2.12.1'
 end
 
 group :development do
