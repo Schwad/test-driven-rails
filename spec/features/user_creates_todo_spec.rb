@@ -4,6 +4,7 @@ require "rails_helper"
 feature "User creates todo" do
   scenario "successfully" do
     sign_in
+    visit root_path
     click_on "New todo"
     fill_in "Title", with: "Wash the cat."
     click_on "Submit"
